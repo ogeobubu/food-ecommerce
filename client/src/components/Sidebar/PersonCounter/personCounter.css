@@ -1,0 +1,53 @@
+.personCounter {
+  margin-top: 5rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.counterTitle {
+  margin-bottom: 1rem;
+}
+
+.counterCheckout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counterContainer {
+  width: 100px;
+  height: 40px;
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.counterNumber {
+  font-size: 20px;
+}
+
+.removeIcon,
+.addCounter {
+  cursor: pointer;
+}
+
+.checkoutButton {
+  position: absolute;
+  background-color: #fdd761;
+  padding: 1rem 1.5rem;
+  border: none;
+  height: 71px;
+  width: 174px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  right: -4rem;
+  bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}

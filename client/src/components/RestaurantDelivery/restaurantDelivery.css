@@ -1,0 +1,41 @@
+:root {
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}
+
+.restaurantDelivery {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.restaurantDeliveryTitle {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.MuiSelect-selectMenu {
+  width: 150px !important;
+}
+
+.MuiSelect-select.MuiSelect-select {
+  padding-right: 24px;
+  color: white;
+}
+
+.deliverySelect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fb6c3a;
+  color: #ffffff;
+  border-radius: 35px;
+  width: 230px;
+  height: 49px;
+}
+
+.scheduleIcon {
+  color: white !important;
+}

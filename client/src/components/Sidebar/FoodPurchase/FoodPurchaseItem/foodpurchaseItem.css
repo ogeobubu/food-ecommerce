@@ -1,0 +1,33 @@
+.foodPurchaseList {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foodImageTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foodItemImage {
+  width: 85px;
+  height: 55px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.quantityTitle {
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+.numberOfPurchase {
+  margin-right: 1rem;
+}
+
+.foodPrice {
+  font-weight: 200;
+  font-size: 20px;
+}

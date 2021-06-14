@@ -1,0 +1,39 @@
+.promo {
+  padding: 2rem;
+  background-color: #fef6ed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: -13px -18px 16px -24px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: -13px -18px 16px -24px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: -13px -18px 16px -24px rgba(0, 0, 0, 0.18);
+}
+
+.promoSVGImage {
+  width: 300px;
+  background-color: none;
+  position: absolute;
+  left: 1rem;
+}
+
+.promoDescription {
+  position: relative;
+  left: 5rem;
+  width: 50%;
+}
+
+.promoTitle {
+  color: #f5a381;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 40px;
+}
+
+.promoDescription > p {
+  font-weight: 300;
+  font-size: 20px;
+}

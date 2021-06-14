@@ -1,0 +1,74 @@
+:root {
+  --background: #fbf8f4;
+  --dark-yellow: #f4a01d;
+  --light-grey: #bdb1a4;
+  --dark-red: #c25427;
+  --light-yellow: #e0ae63;
+  --dark-blue: #180f58;
+  --dark-grey: #493d35;
+  --light-blue: #3c338f;
+  --search: #f9f9f7;
+}
+
+.topBar {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.topBarLeft {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  justify-content: space-evenly;
+}
+
+.menuBar {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.topBarUsername {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.topBarRight {
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.searchInputContainer {
+  height: 100%;
+  width: 100%;
+  background-color: var(--search);
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.searchIcon {
+  background: transparent !important;
+  margin-right: 1rem;
+}
+
+.searchInput {
+  width: 100%;
+  border: none;
+  appearance: none;
+  outline: none;
+  background: none;
+}
+
+.greeting {
+  padding: 0 1rem;
+  background: #503e9d;
+  color: #f9f9f7;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 50%;
+  padding: 1rem;
+}

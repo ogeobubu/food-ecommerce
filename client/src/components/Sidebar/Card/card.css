@@ -1,0 +1,58 @@
+.card {
+  margin-top: 3rem;
+  background-color: #503e9d;
+  width: 100%;
+  color: #fcfdfb;
+  padding: 2rem;
+  border-radius: 30px;
+  box-shadow: -13px -18px 16px -24px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: -13px -18px 16px -24px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: -13px -18px 16px -24px rgba(0, 0, 0, 0.18);
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressName {
+  width: 70%;
+}
+
+.editAddress {
+  cursor: pointer;
+  color: #fdd761;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.timing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #614c97;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.scheduleIcon {
+  color: #fdd761;
+  margin: auto;
+}
+
+.chooseTime {
+  color: #fdd761;
+}

@@ -1,0 +1,32 @@
+.categoryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-right: 2rem;
+  background: #fefffe;
+  width: 93px;
+  height: 160px;
+  border-radius: 60px;
+  box-shadow: 4px 2px 14px 2px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 4px 2px 14px 2px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 4px 2px 14px 2px rgb(0 0 0 / 10%);
+  cursor: pointer;
+}
+
+.categoryItem:hover {
+  background-color: #fdd761;
+}
+
+.categoryItemIcon {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fefffe;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cccccc;
+}

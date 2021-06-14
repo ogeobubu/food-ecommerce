@@ -1,0 +1,39 @@
+.food-purchase {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 3rem;
+}
+
+.delivery {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deliveryTitleImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deliveryImageContainer {
+  margin-right: 2rem;
+  background-color: #fdd761;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.deliveryIcon {
+  color: #8e7647;
+  font-size: 1.7rem !important;
+}
+
+.deliveryTitle {
+  font-weight: 600;
+}

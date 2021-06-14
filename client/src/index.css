@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --background: #fbf8f4;
+  --dark-yellow: #f4a01d;
+  --light-grey: #bdb1a4;
+  --dark-red: #c25427;
+  --light-yellow: #e0ae63;
+  --dark-blue: #180f58;
+  --dark-grey: #493d35;
+  --light-blue: #3c338f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: white;
+}
+
+@media screen and (max-width: 950px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .promoDescription {
+    width: 100%;
+    left: 0;
+    position: static;
+  }
+  .promoSVGImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .greeting {
+    width: 100%;
+  }
+  .categoryContainer {
+    justify-content: center;
+  }
+  .restaurantDelivery {
+    flex-direction: column;
+  }
+  .foodRestaurant {
+    justify-content: center;
+  }
+}

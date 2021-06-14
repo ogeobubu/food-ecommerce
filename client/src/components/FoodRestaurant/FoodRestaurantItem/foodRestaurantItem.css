@@ -1,0 +1,52 @@
+.foodRestaurantItem {
+  margin-right: 2rem;
+}
+
+.foodRestaurantItemImageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.foodRestaurantItemImage {
+  width: 230px;
+  height: 120px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.duration {
+  position: absolute;
+
+  bottom: 6px;
+  left: -6px;
+
+  background-color: #f8f8f8;
+  padding: 0.3rem 0.8rem;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.foodRestaurantTitle {
+  font-weight: 600;
+}
+.foodRestaurantDetails {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.ratingsIcon {
+  margin-right: 0.5rem;
+}
+
+.location,
+.foodRestaurantCategory {
+  font-weight: 300;
+  margin-right: 0.5rem;
+}

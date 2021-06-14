@@ -1,0 +1,9 @@
+.category {
+  margin-top: 4rem;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
