@@ -5,7 +5,7 @@ const FoodRestaurantItem = ({ foodData }) => {
   return (
     <>
       {foodData.map((item) => (
-        <div className="foodRestaurantItem">
+        <div key={item.id} className="foodRestaurantItem">
           <div className="foodRestaurantItemImageContainer">
             <img className="foodRestaurantItemImage" src={item.image} alt="" />
             <div className="duration">{item.duration}</div>

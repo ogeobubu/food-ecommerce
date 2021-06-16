@@ -80,7 +80,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .topBar {
     flex-direction: column;
   }
