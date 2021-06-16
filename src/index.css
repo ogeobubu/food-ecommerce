@@ -37,29 +37,3 @@ body {
     flex-direction: column;
   }
 }
-
-@media screen and (max-width: 800px) {
-  .promoDescription {
-    width: 100%;
-    left: 0;
-    position: static;
-  }
-  .promoSVGImage {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .greeting {
-    width: 100%;
-  }
-  .categoryContainer {
-    justify-content: center;
-  }
-  .restaurantDelivery {
-    flex-direction: column;
-  }
-  .foodRestaurant {
-    justify-content: center;
-  }
-}

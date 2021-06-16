@@ -31,3 +31,9 @@
   font-weight: 200;
   font-size: 20px;
 }
+
+@media screen and (max-width: 320px) {
+  .foodPurchaseList {
+    flex-direction: column;
+  }
+}

@@ -37,3 +37,20 @@
   font-weight: 300;
   font-size: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .promoDescription {
+    width: 100%;
+    left: 0;
+    position: static;
+  }
+  .promoSVGImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .promoTitle {
+    font-size: 30px;
+  }
+}

@@ -37,3 +37,9 @@
 .deliveryTitle {
   font-weight: 600;
 }
+
+@media screen and (max-width: 320px) {
+  .delivery {
+    flex-direction: column;
+  }
+}

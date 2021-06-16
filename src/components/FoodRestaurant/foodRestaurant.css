@@ -1,0 +1,11 @@
+.foodRestaurant {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 585px) {
+  .foodRestaurant {
+    justify-content: center;
+  }
+}

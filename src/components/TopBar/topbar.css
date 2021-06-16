@@ -71,4 +71,17 @@
   letter-spacing: 2px;
   width: 50%;
   padding: 1rem;
+  align-self: center;
+}
+
+@media screen and (max-width: 500px) {
+  .greeting {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .topBar {
+    flex-direction: column;
+  }
 }

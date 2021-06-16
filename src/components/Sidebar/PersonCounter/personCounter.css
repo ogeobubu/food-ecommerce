@@ -51,3 +51,16 @@
   cursor: pointer;
   font-weight: 600;
 }
+
+@media screen and (max-width: 320px) {
+  .personCounter {
+    position: static;
+  }
+  .checkoutButton {
+    position: static;
+    margin-top: 1rem;
+  }
+  .counterCheckout {
+    flex-direction: column;
+  }
+}

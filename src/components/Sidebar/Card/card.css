@@ -56,3 +56,9 @@
 .chooseTime {
   color: #fdd761;
 }
+
+@media screen and (max-width: 350px) {
+  .time {
+    flex-direction: column;
+  }
+}

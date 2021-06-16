@@ -1,0 +1,16 @@
+.category {
+  margin-top: 4rem;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .categoryContainer {
+    justify-content: center;
+  }
+}

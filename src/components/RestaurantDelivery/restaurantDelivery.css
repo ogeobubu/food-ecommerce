@@ -39,3 +39,9 @@
 .scheduleIcon {
   color: white !important;
 }
+
+@media screen and (max-width: 500px) {
+  .restaurantDelivery {
+    flex-direction: column;
+  }
+}
