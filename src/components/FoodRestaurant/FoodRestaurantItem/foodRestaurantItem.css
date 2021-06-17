@@ -12,7 +12,12 @@
   height: 120px;
   border-radius: 20px;
   object-fit: cover;
+  /* transition: all 700ms ease-in; */
 }
+
+/* .foodRestaurantItemImage:hover {
+  transform: scale(1.1);
+} */
 
 .duration {
   position: absolute;
