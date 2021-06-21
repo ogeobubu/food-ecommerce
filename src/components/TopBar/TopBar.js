@@ -1,7 +1,12 @@
 import "./topbar.css";
 import { Menu, Close, Search } from "@material-ui/icons";
+import { useSelector } from "react-redux";
 
 const TopBar = ({ open, setOpen }) => {
+  const auth = useSelector((state) => state.auth);
+
+  const { isAdmin, user } = auth;
+
   const handleClick = () => {
     setOpen(!open);
   };
@@ -14,7 +19,10 @@ const TopBar = ({ open, setOpen }) => {
       <div className="topBar">
         <div onClick={handleClick} className="topBarLeft">
           {open ? <Close className="menuBar" /> : <Menu className="menuBar" />}
-          <span className="topBarUsername">Dashboard</span>
+          <span className="topBarUsername">
+            {isAdmin ? "Admin" : null} {""}
+            {user.user.firstName}
+          </span>
         </div>
         <div className="topBarRight">
           <div className="searchInputContainer">
@@ -25,10 +33,10 @@ const TopBar = ({ open, setOpen }) => {
       </div>
       <p className="greeting">
         {hour < 12
-          ? "Good morning User. Have a lovely day ahead!"
+          ? `Good Morning ${user.user.firstName}. Have a great day ahead!`
           : hour < 18
-          ? "Good Afternoon User"
-          : "Good Evening Oge. It is getting late ensure you sleep early."}
+          ? `Good Afternoon ${user.user.firstName}. I hope you are enjoying the noon.`
+          : `Good Evening ${user.user.firstName}. Ensure you go to bed early today!`}
       </p>
     </>
   );

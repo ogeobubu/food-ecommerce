@@ -1,11 +1,15 @@
 import "./card.css";
 import { Schedule } from "@material-ui/icons";
+import { useSelector } from "react-redux";
 
 const Card = () => {
+  const auth = useSelector((state) => state.auth);
+  const { isAdmin, user } = auth;
+
   return (
     <div className="card">
       <div className="address">
-        <span className="addressName">Lagos, Lagos State, Nigeria</span>
+        <span className="addressName">{user.user.address}</span>
         <span className="editAddress">Edit</span>
       </div>
       <div className="time">
